@@ -3,127 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
+    <title>Buy Clothes Online</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 <body>
-    <h1 class="fw-bold text-decoration-underline bg-success p-5 text-danger font-monospace text-center ">Bangladesh</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand  text-primary fs-3 text" href="#">Buy Clothes Online</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-info fs-5 text" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info fs-5" href="#">Buy</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-info-emphasis fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Others
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Orders</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
-    <h1 class="fs-6 p-3 fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam a iusto, distinctio minima at, sequi eos veniam nesciunt voluptatum accusamus hic, maxime sapiente rerum tempora natus unde itaque qui aliquam.
-    Alias cumque, possimus animi quisquam temporibus molestias perferendis provident at cum fugiat deleniti, eveniet molestiae suscipit dolorem iure. Velit nihil illo dolorum quos sed saepe ratione totam. Delectus, officia alias!
-    Dignissimos iste, fuga facere vel harum similique perferendis ipsum repellat natus. Adipisci qui dolorum libero reprehenderit, facilis labore aperiam ut ratione, quidem nesciunt, ab dicta quaerat debitis. Aliquam, suscipit veniam!
-    Aperiam enim magni sed molestiae quae voluptate quo obcaecati laborum necessitatibus, id rem neque autem quas. Tempore nostrum ea vitae facilis ducimus, laborum, quidem distinctio eveniet est maiores ullam laboriosam?
-    Reprehenderit quis facilis eos doloremque dolor placeat quos minus voluptatibus totam nostrum nulla nemo mollitia deserunt quaerat doloribus at repellendus sit modi, animi aperiam officiis. Voluptates dolore ullam facilis accusantium?</h1>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://antonovich-design.ae/uploads/gallery/2022/4/antonovich-design-2022kQvAGRjs3OB9.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.rothmansny.com/cdn/shop/files/DSC_9642_8dc72f91-e7af-40db-b209-8cd6cd90133a.jpg?v=1729121213&width=1080" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://st2.depositphotos.com/1006832/6017/i/950/depositphotos_60178113-stock-photo-clothes-shop-interior.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-    <div class="progress " role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar p-3" style="width: 0%"></div>
-      </div>
-      <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar" style="width: 25%"></div>
-      </div>
-      <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar" style="width: 50%"></div>
-      </div>
-      <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar" style="width: 75%"></div>
-      </div>
-      <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar" style="width: 100%"></div>
-      </div>
 
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwWkS-YVrX9K_ot1fQNDTqYzZkb9S_Xr6EEw&s" class="img-fluid rounded float-start" alt="river">
+      <p class="text-start fs-6 text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non sequi tempore, quos praesentium nihil perferendis amet harum quasi ullam repellendus optio! Corrupti reprehenderit atque at labore autem inventore tenetur deleniti.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quaerat adipisci? Impedit omnis quam minima inventore, aliquid reprehenderit cum aspernatur nulla aut obcaecati nostrum neque dicta dolorem! Laborum, iste voluptatibus.
+        Excepturi illum unde nisi facere ab cum ea ut explicabo obcaecati reprehenderit. Expedita deleniti modi odio beatae optio ipsa iste nulla fugiat? Eius modi vel, similique commodi alias vitae. Tempora!
+        Error voluptates impedit vero! Ipsam nobis possimus ab at dolor expedita iusto nulla, tenetur ratione alias excepturi voluptatum praesentium? Doloremque voluptatum repudiandae modi ut itaque ratione, reiciendis magni mollitia voluptatem.
+        Quibusdam est possimus earum perspiciatis soluta corrupti dolores, nesciunt ipsum nemo quidem libero culpa placeat sint officiis aspernatur aperiam aliquam adipisci, eum facere, tempore consequuntur? Animi et quae sit veniam?
+        Amet aperiam doloribus repellendus assumenda deleniti error iure ex molestias harum, mollitia expedita hic quibusdam! Accusantium omnis beatae non. Ipsum aliquid esse ea id voluptates iure veniam, iste cumque consectetur?
+      </p>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <form class="row g-3">
-        <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress2" class="form-label">Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="col-md-6 p-2">
-          <label for="inputCity" class="form-label">City</label>
-          <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-4 p-2">
-          <label for="inputState" class="form-label">State</label>
-          <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
-        </div>
-        <div class="col-md-2 p-2">
-          <label for="inputZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
-        </div>
-        <div class="col-12 p-2">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
-          </div>
-        </div>
-        <div class="col-12 p-2">
-          <button type="submit" class="btn btn-primary">Sign in</button>
-        </div>
-      </form>
-
-      <p class="p-4 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam numquam voluptate odio eum! Tenetur, alias velit et totam recusandae atque id ullam vitae praesentium cumque ad deleniti vel, rem facere.
-      Id itaque amet ratione quaerat pariatur eveniet dolorem? Nulla sed quia voluptates labore neque similique expedita incidunt quis fugiat perspiciatis quam numquam magnam, ipsum molestiae! Suscipit aliquam ad sit tenetur!
-      Sunt rem impedit vitae saepe aperiam nesciunt odio reprehenderit illum dolorem, sequi labore asperiores aspernatur ducimus quae optio libero alias tempore expedita totam vero. Natus sint consequuntur blanditiis molestiae error.
-      Impedit rem ea maiores fuga ex, illo deleniti ab eaque vero laborum nemo? Dolores inventore exercitationem cum, ex mollitia repellat tenetur cupiditate, dolor consequatur recusandae voluptates dolore saepe sequi placeat.
-      Repellat saepe voluptates facilis delectus officiis? Laborum laudantium ad nulla et reiciendis eum aspernatur, accusantium sapiente ut voluptate veritatis dicta est consequuntur, modi vel, omnis possimus. Dolorum, expedita? Aperiam, qui?
-      Temporibus quaerat a corrupti consequatur, voluptatibus quasi inventore ipsa quas sit incidunt nam, necessitatibus aperiam nulla. Veritatis earum tempore reiciendis, corrupti temporibus nisi perspiciatis enim repudiandae vel, animi sunt facere.
-      Repellat voluptate accusamus ipsum molestiae, ab rerum! Quia in ea nihil quis libero porro unde non repellendus, maxime aperiam? Nesciunt odit non sapiente inventore ea eaque vel modi est! Debitis?
-      Vitae aliquam, saepe, odit quibusdam mollitia cupiditate corporis optio sed asperiores voluptates atque rerum! Ipsum asperiores, amet, dolores possimus laudantium facere adipisci ab eos praesentium tenetur nobis esse dolorem libero.
-      Culpa doloremque deserunt impedit, nihil exercitationem veritatis libero obcaecati ipsa! Iusto explicabo eos laudantium ratione ex porro ad quia eveniet assumenda quidem officiis necessitatibus consequatur cupiditate at, cum eius perspiciatis?
-      Sequi laboriosam voluptates accusamus. Blanditiis nostrum, asperiores molestias voluptatum corrupti delectus doloribus quos possimus porro laudantium vitae sequi ea! Sequi praesentium sapiente nihil doloremque veritatis laboriosam illum minima minus nobis.</p>
-
-      <div class="form-floating ">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-        <label for="floatingTextarea">Comments</label>
-      </div>
-
-      <p class="fs-5 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, commodi sunt magnam doloribus voluptatum velit animi corrupti? Ullam minus voluptatem, sed quisquam cum iure neque cupiditate minima magnam similique voluptatum!</p>
-
-
-    
-
-
-      <button type="button" class="btn btn-outline-primary">Primary</button>
-      <button type="button" class="btn btn-outline-secondary">Secondary</button>
-      <button type="button" class="btn btn-outline-success">Success</button>
-      <button type="button" class="btn btn-outline-danger">Danger</button>
-      <button type="button" class="btn btn-outline-warning">Warning</button>
-      <button type="button" class="btn btn-outline-info">Info</button>
-      <button type="button" class="btn btn-outline-light">Light</button>
-      <button type="button" class="btn btn-outline-dark">Dark</button>
 
 
     
